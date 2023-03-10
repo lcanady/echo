@@ -1,0 +1,359 @@
+{
+    "names": {
+        "streets": [
+            "Ruined City Street",
+            "Desolate City Street",
+            "Devastated City Street",
+            "Abandoned City Street",
+            "Battered City Street",
+            "Collapsed City Street",
+            "Ruined City Street"
+        ]
+    },
+    "descriptions": {
+        "streets": [
+            "The city street lies in ruins after the zombie apocalypse. Collapsed buildings and rubble cover the cracked asphalt, while battered storefronts and abandoned cars litter the area. Graffiti and torn posters cover the walls, and puddles of stagnant water create a breeding ground for infection. The sound of shuffling and groaning in the distance serves as a constant reminder of the danger that lurks around every corner.",
+            "As you step into the ruined city street, the desolation is palpable. Collapsed buildings and rubble litter the cracked asphalt, while shattered storefronts and abandoned cars line the area. Graffiti and torn posters cover the walls, the only signs of life in this barren wasteland. The sound of shuffling and groaning in the distance serves as a constant reminder of the danger that lurks around every corner.",
+            "The city street is a scene of devastation after the zombie apocalypse. The once-bustling thoroughfare is now a maze of collapsed buildings and rubble-strewn pavement. Boarded-up storefronts and abandoned cars line the street, their windows shattered and doors hanging off their hinges. The only sound is the wind whistling through the empty buildings and the occasional groan of a zombie in the distance.",
+            "The ruined city street is a haunting reminder of the horrors of the zombie outbreak. Crumbled buildings and rubble cover the cracked asphalt, while abandoned cars and shattered storefronts litter the area. Graffiti and torn posters cover the walls, the only signs of life in this desolate wasteland. The faint sound of shuffling and groaning serves as a chilling reminder of the danger that still lurks in this abandoned city.",
+            "The city street lies in ruins after the zombie apocalypse. Collapsed buildings and rubble cover the cracked asphalt, while battered storefronts and abandoned cars litter the area. The once-vibrant storefronts are now nothing but empty shells, with their shelves stripped bare and their display windows smashed. The sound of shuffling and groaning in the distance serves as a constant reminder of the danger that still remains.",
+            "As you make your way through the ruined city street, the devastation is overwhelming. Collapsed buildings and rubble cover the cracked asphalt, while abandoned cars and shattered storefronts litter the area. The buildings that still stand are battered and boarded up, their windows smashed and doors hanging off their hinges. Graffiti and torn posters cover the walls, a haunting reminder of the people who once called this place home.",
+            "The abandoned city street is a bleak wasteland of decay after the zombie apocalypse. Collapsed buildings and rubble cover the cracked asphalt, while boarded-up storefronts and abandoned cars line the area. The sound of shuffling and groaning in the distance serves as a constant reminder of the danger that still lurks around every corner. The once-bustling thoroughfare is now a chilling testament to the horrors of the zombie outbreak.",
+            "The ruined city street is a haunting reminder of the devastation wrought by the zombie outbreak. Collapsed buildings and rubble cover the cracked asphalt, while abandoned cars and battered storefronts litter the area. The few buildings that still stand are boarded up and barricaded, their windows smashed and doors hanging off their hinges. The sound of shuffling and groaning serves as a constant reminder of the danger that still remains."
+        ]
+    },
+    "exterior": {
+        "streets": [
+            "The path continues down the city street, winding through the rubble and debris of collapsed buildings.",
+            "Following the path down the city street, you can see the remnants of abandoned storefronts and cars lining the way.",
+            "The path ahead leads deeper into the decaying city street, with broken windows and boarded-up doors on either side.",
+            "As you continue down the city street, you notice the sound of shuffling and groaning growing louder in the distance.",
+            "The path down the city street is obstructed by piles of rubble and debris, requiring careful navigation to avoid tripping.",
+            "Following the path deeper into the city street, you notice the buildings becoming increasingly dilapidated and unstable.",
+            "The path continues down the city street, lined with abandoned cars and graffiti-covered buildings.",
+            "As you make your way down the city street, you catch glimpses of movement out of the corner of your eye, raising the hairs on the back of your neck.",
+            "The path ahead leads into a dark and shadowy area of the city street, with broken streetlights flickering ominously.",
+            "The path down the city street is treacherous, with broken glass and other hazards littering the way."
+        ]
+    },
+    "locationTypes": [
+        "groceryStore",
+        "hardwareStore",
+        "pharmacy",
+        "policeStation",
+        "school",
+        "warehouse",
+        "officeBuilding"
+    ],
+    "locations": {
+        "groceryStore": {
+            "descriptions": [
+                "The interior of the ruined grocery store is a wasteland of overturned shelves and scattered food items. The air is thick with the stench of spoiled food and rotting corpses.",
+                "The shelves of the abandoned grocery store are picked clean, with only a few cans and boxes of expired food left behind. The floors are littered with debris and overturned shopping carts.",
+                "The interior of the ransacked grocery store is a jumbled mess of overturned shelves and scattered food items. The smell of decay is overwhelming.",
+                "The abandoned grocery store is a maze of overturned shopping carts and empty shelves. The only signs of life are the occasional rat scurrying across the floor.",
+                "The interior of the looted grocery store is a shadowy and eerie place, with scattered food items and overturned displays creating a treacherous obstacle course.",
+                "The shelves of the abandoned grocery store are picked clean, with only a few cans and boxes of expired food left behind. The only signs of life are the occasional rustling of scavenging rodents.",
+                "The interior of the ransacked supermarket is a desolate and dangerous place, with overturned carts and broken glass littering the floors.",
+                "The abandoned grocery store is a stripped-down and pillaged wasteland, with empty shelves and spoiled food items lining the walls. The only sound is the faint buzz of flies.",
+                "The interior of the ruined supermarket is a scene of devastation, with overturned shelves and scattered food items creating a treacherous obstacle course.",
+                "The shelves of the abandoned grocery store are barren and empty, with nothing but a few cans of spoiled food and a lingering stench of decay."
+            ],
+            "exteriors": [
+                "The grocery store's windows are shattered and boarded up, with a faded sign advertising discounts on canned goods.",
+                "The faded letters of the grocery store's sign loom over the empty parking lot, as if mocking the absence of shoppers.",
+                "The grocery store's exterior is covered in layers of dust and grime, with weeds and vines creeping up the sides of the building.",
+                "The parking lot of the abandoned grocery store is cracked and overgrown with weeds, with shopping carts scattered about.",
+                "The grocery store's entrance is barred by a chain-link fence, with a faded 'closed' sign hanging from the rusted gate.",
+                "The grocery store's neon sign flickers intermittently, casting an eerie glow over the surrounding ruins.",
+                "The grocery store's roof has collapsed, leaving a gaping hole in the center of the building and exposing the interior to the elements.",
+                "The windows of the abandoned grocery store are dark and foreboding, with a sense of danger emanating from the shadows within.",
+                "The grocery store's faded awning flaps in the wind, its letters barely visible through years of neglect.",
+                "The grocery store's parking lot is littered with debris and broken glass, a testament to the chaos and destruction of the apocalypse."
+            ],
+            "names": [
+                "Abandoned Grocery Store",
+                "Ransacked Grocery Store",
+                "Ruined Grocery Store",
+                "Looted Grocery Store",
+                "Ransacked Supermarket",
+                "Ruined Supermarket",
+                "Looted Supermarket",
+                "Abandoned Supermarket"
+            ]
+        },
+        "hardwareStore": {
+            "descriptions": [
+                "The interior of the ruined hardware store is a chaotic mess of overturned tools and scattered supplies. The shelves are picked clean, with only a few rusted and useless items left behind.",
+                "The abandoned hardware store is a maze of rusted and broken tools, with overturned shelves and scattered debris creating a treacherous obstacle course.",
+                "The interior of the looted hardware store is a shadowy and foreboding place, with scattered tools and overturned displays creating a hazardous environment.",
+                "The abandoned hardware store is a stripped-down and pillaged wasteland, with empty shelves and rusted equipment lining the walls.",
+                "The interior of the ransacked hardware store is a desolate and dangerous place, with overturned tools and scattered supplies posing a constant threat of injury.",
+                "The shelves of the abandoned hardware store are barren and empty, with nothing but a few rusted and useless tools left behind.",
+                "The interior of the ruined tool shop is a maze of overturned equipment and broken tools, with debris and rusted metal littering the floor.",
+                "The abandoned hardware store is a scene of devastation, with overturned shelves and scattered debris creating a hazardous obstacle course.",
+                "The interior of the ransacked tool shop is a chaotic mess of overturned tools and scattered supplies, with the only signs of life being the occasional rustling of scavenging rodents.",
+                "The abandoned hardware store is a shadowy and eerie place, with rusted tools and overturned displays creating a dangerous and unstable environment."
+            ],
+            "exteriors": [
+                "The hardware store's windows are shattered and boarded up, with a faded sign advertising discounts on tools.",
+                "The faded letters of the hardware store's sign loom over the empty parking lot, as if mocking the absence of shoppers.",
+                "The hardware store's exterior is covered in layers of dust and grime, with weeds and vines creeping up the sides of the building.",
+                "The parking lot of the abandoned hardware store is cracked and overgrown with weeds, with shopping carts scattered about.",
+                "The hardware store's entrance is barred by a chain-link fence, with a faded 'closed' sign hanging from the rusted gate.",
+                "The hardware store's neon sign flickers intermittently, casting an eerie glow over the surrounding ruins.",
+                "The hardware store's roof has collapsed, leaving a gaping hole in the center of the building and exposing the interior to the elements.",
+                "The windows of the abandoned hardware store are dark and foreboding, with a sense of danger emanating from the shadows within.",
+                "The hardware store's faded awning flaps in the wind, its letters barely visible through years of neglect.",
+                "The hardware store's parking lot is littered with debris and broken glass, a testament to the chaos and destruction of the apocalypse."
+            ],
+            "names": [
+                "Abandoned Hardware Store",
+                "Ransacked Hardware Store",
+                "Ruined Hardware Store",
+                "Looted Hardware Store",
+                "Ransacked Tool Shop",
+                "Ruined Tool Shop",
+                "Looted Tool Shop",
+                "Abandoned Tool Shop"
+            ]
+        },
+        "pharmacy": {
+            "descriptions": [
+                "The interior of the ruined pharmacy is a shattered and pillaged wasteland, with overturned shelves and empty medicine bottles littering the floor.",
+                "The abandoned pharmacy is a maze of overturned medicine cabinets and scattered debris, with only a few empty bottles and pill containers left behind.",
+                "The interior of the looted pharmacy is a hazardous and treacherous place, with overturned shelves and scattered medical supplies creating a dangerous obstacle course.",
+                "The abandoned pharmacy is a shadowy and eerie place, with empty medicine bottles and rusted medical equipment littering the floor.",
+                "The interior of the ruined drugstore is a wasteland of overturned shelves and scattered medical supplies. The smell of decay is overwhelming.",
+                "The abandoned pharmacy is a stripped-down and pillaged wasteland, with empty shelves and shattered medicine bottles lining the walls.",
+                "The interior of the ransacked drugstore is a chaotic mess of overturned medicine cabinets and scattered debris, with the only signs of life being the occasional rustling of scavenging rodents.",
+                "The shelves of the abandoned pharmacy are barren and empty, with nothing but a few rusted medical supplies and a lingering stench of decay.",
+                "The interior of the ruined apothecary is a scene of devastation, with overturned shelves and scattered medicine bottles creating a hazardous obstacle course.",
+                "The abandoned pharmacy is a desolate and dangerous place, with rusted medical equipment and overturned displays creating an unstable and unpredictable environment."
+            ],
+            "exteriors": [
+                "The pharmacy's windows are shattered and boarded up, with a faded sign advertising discounts on medicine.",
+                "The faded letters of the pharmacy's sign loom over the empty parking lot, as if mocking the absence of shoppers.",
+                "The pharmacy's exterior is covered in layers of dust and grime, with weeds and vines creeping up the sides of the building.",
+                "The parking lot of the abandoned pharmacy is cracked and overgrown with weeds, with shopping carts scattered about.",
+                "The pharmacy's entrance is barred by a chain-link fence, with a faded 'closed' sign hanging from the rusted gate.",
+                "The pharmacy's neon sign flickers intermittently, casting an eerie glow over the surrounding ruins.",
+                "The pharmacy's roof has collapsed, leaving a gaping hole in the center of the building and exposing the interior to the elements.",
+                "The windows of the abandoned pharmacy are dark and foreboding, with a sense of danger emanating from the shadows within.",
+                "The pharmacy's faded awning flaps in the wind, its letters barely visible through years of neglect.",
+                "The pharmacy's parking lot is littered with debris and broken glass, a testament to the chaos and destruction of the apocalypse."
+            ],
+            "names": [
+                "Abandoned Pharmacy",
+                "Ransacked Pharmacy",
+                "Ruined Pharmacy",
+                "Looted Pharmacy",
+                "Ransacked Drugstore",
+                "Ruined Drugstore",
+                "Looted Drugstore",
+                "Abandoned Drugstore",
+                "Ransacked Apothecary",
+                "Ruined Apothecary",
+                "Looted Apothecary",
+                "Abandoned Apothecary"
+            ]
+        },
+        "policeStation": {
+            "descriptions": [
+                "The interior of the ruined police station is a scene of devastation, with overturned desks and shattered equipment strewn about. The walls are marked with bullet holes and blood stains.",
+                "The abandoned police station is a maze of dark corridors and empty holding cells, with only a few rusted and useless weapons left behind.",
+                "The interior of the ransacked police station is a shadowy and foreboding place, with overturned desks and scattered equipment creating a hazardous obstacle course.",
+                "The abandoned police station is a stripped-down and pillaged wasteland, with empty holding cells and shattered windows lining the walls.",
+                "The interior of the looted police station is a chaotic mess of overturned desks and scattered equipment, with the only signs of life being the occasional rustling of scavenging rodents.",
+                "The abandoned police station is a desolate and dangerous place, with overturned equipment and shattered windows creating an unstable and unpredictable environment.",
+                "The interior of the ruined precinct is a shadowy and eerie place, with shattered windows and overturned desks littering the halls.",
+                "The abandoned police station is a hazardous and treacherous place, with overturned equipment and broken glass posing a constant threat of injury.",
+                "The interior of the ransacked precinct is a maze of overturned desks and scattered equipment, with the only signs of life being the distant groans of the undead.",
+                "The abandoned police station is a wasteland of shattered glass and overturned equipment, with the sound of shuffling footsteps echoing through the halls."
+            ],
+            "exteriors": [
+                "The police station's windows are shattered and boarded up, with a faded sign advertising discounts on weapons.",
+                "The faded letters of the police station's sign loom over the empty parking lot, as if mocking the absence of shoppers.",
+                "The police station's exterior is covered in layers of dust and grime, with weeds and vines creeping up the sides of the building.",
+                "The parking lot of the abandoned police station is cracked and overgrown with weeds, with shopping carts scattered about.",
+                "The police station's entrance is barred by a chain-link fence, with a faded 'closed' sign hanging from the rusted gate.",
+                "The police station's neon sign flickers intermittently, casting an eerie glow over the surrounding ruins.",
+                "The police station's roof has collapsed, leaving a gaping hole in the center of the building and exposing the interior to the elements.",
+                "The windows of the abandoned police station are dark and foreboding, with a sense of danger emanating from the shadows within.",
+                "The police station's faded awning flaps in the wind, its letters barely visible through years of neglect.",
+                "The police station's parking lot is littered with debris and broken glass, a testament to the chaos and destruction of the apocalypse."
+            ],
+            "names": [
+                "Abandoned Police Station",
+                "Ransacked Police Station",
+                "Ruined Police Station",
+                "Looted Police Station",
+                "Ransacked Precinct",
+                "Ruined Precinct",
+                "Looted Precinct",
+                "Abandoned Precinct",
+                "Ransacked Station",
+                "Ruined Station",
+                "Looted Station",
+                "Abandoned Station"
+            ]
+        },
+        "school": {
+            "descriptions": [
+                "The interior of the abandoned school is a shadowy and foreboding place, with overturned desks and scattered books littering the classrooms. The only sound is the faint rustling of papers in the breeze.",
+                "The empty halls of the ruined school are a desolate and lonely place, with the only signs of life being the occasional rustling of scavenging rodents.",
+                "The interior of the ransacked school is a chaotic mess of overturned desks and scattered books, with the smell of decay and dust permeating the air.",
+                "The abandoned school is a stripped-down and pillaged wasteland, with empty lockers and broken chalkboards lining the halls.",
+                "The interior of the looted school is a shadowy and eerie place, with overturned desks and scattered textbooks creating a treacherous obstacle course.",
+                "The abandoned school is a scene of devastation, with shattered windows and overturned chairs littering the halls.",
+                "The abandoned school is a hazardous and treacherous place, with broken glass and overturned furniture posing a constant threat of injury.",
+                "The interior of the ransacked library is a maze of overturned bookshelves and scattered books, with the only signs of life being the distant groans of the undead.",
+                "The abandoned school is a desolate and dangerous place, with overturned desks and shattered windows creating an unstable and unpredictable environment."
+            ],
+            "exteriors": [
+                "The school's windows are shattered and boarded up, with a faded sign advertising discounts on books.",
+                "The faded letters of the school's sign loom over the empty parking lot, as if mocking the absence of shoppers.",
+                "The school's exterior is covered in layers of dust and grime, with weeds and vines creeping up the sides of the building.",
+                "The parking lot of the abandoned school is cracked and overgrown with weeds, with shopping carts scattered about.",
+                "The school's entrance is barred by a chain-link fence, with a faded 'closed' sign hanging from the rusted gate.",
+                "The school's neon sign flickers intermittently, casting an eerie glow over the surrounding ruins.",
+                "The school's roof has collapsed, leaving a gaping hole in the center of the building and exposing the interior to the elements.",
+                "The windows of the abandoned school are dark and foreboding, with a sense of danger emanating from the shadows within.",
+                "The school's faded awning flaps in the wind, its letters barely visible through years of neglect.",
+                "The school's parking lot is littered with debris and broken glass, a testament to the chaos and destruction of the apocalypse."
+            ],
+            "names": [
+                "Abandoned School",
+                "Ransacked School",
+                "Ruined School",
+                "Looted School",
+                "Ransacked Library",
+                "Ruined Library",
+                "Looted Library",
+                "Abandoned Library",
+                "Ransacked Campus",
+                "Ruined Campus",
+                "Looted Campus",
+                "Abandoned Campus"
+            ]
+        },
+        "warehouse": {
+            "descriptions": [
+                "The interior of the ruined warehouse is a chaotic mess of overturned crates and scattered equipment, with the only signs of life being the occasional rustling of scavenging rodents.",
+                "The abandoned warehouse is a shadowy and eerie place, with broken pallets and empty crates littering the floor.",
+                "The interior of the looted warehouse is a hazardous and treacherous place, with overturned equipment and scattered debris creating a dangerous obstacle course.",
+                "The abandoned warehouse is a stripped-down and pillaged wasteland, with empty crates and rusted equipment lining the walls.",
+                "The interior of the ransacked warehouse is a desolate and dangerous place, with overturned crates and scattered debris posing a constant threat of injury.",
+                "The abandoned warehouse is a maze of dark corridors and empty spaces, with the only sounds being the occasional creak of metal and the rustling of rodents in the shadows.",
+                "The interior of the ruined storage facility is a shadowy and foreboding place, with overturned crates and scattered equipment littering the floor.",
+                "The abandoned warehouse is a scene of devastation, with broken pallets and overturned equipment creating a hazardous obstacle course.",
+                "The interior of the looted storage facility is a wasteland of overturned crates and scattered debris, with the smell of decay and rust permeating the air.",
+                "The abandoned warehouse is a dangerous and unstable place, with rusted equipment and broken crates posing a constant threat of injury."
+            ],
+            "exteriors": [
+                "The warehouse's windows are shattered and boarded up, with a faded sign advertising discounts on equipment.",
+                "The faded letters of the warehouse's sign loom over the empty parking lot, as if mocking the absence of shoppers.",
+                "The warehouse's exterior is covered in layers of dust and grime, with weeds and vines creeping up the sides of the building.",
+                "The parking lot of the abandoned warehouse is cracked and overgrown with weeds, with shopping carts scattered about.",
+                "The warehouse's entrance is barred by a chain-link fence, with a faded 'closed' sign hanging from the rusted gate.",
+                "The warehouse's neon sign flickers intermittently, casting an eerie glow over the surrounding ruins.",
+                "The warehouse's roof has collapsed, leaving a gaping hole in the center of the building and exposing the interior to the elements.",
+                "The windows of the abandoned warehouse are dark and foreboding, with a sense of danger emanating from the shadows within.",
+                "The warehouse's faded awning flaps in the wind, its letters barely visible through years of neglect.",
+                "The warehouse's parking lot is littered with debris and broken glass, a testament to the chaos and destruction of the apocalypse."
+            ],
+            "names": [
+                "Abandoned Warehouse",
+                "Ransacked Warehouse",
+                "Ruined Warehouse",
+                "Looted Warehouse",
+                "Ransacked Storage Facility",
+                "Ruined Storage Facility",
+                "Looted Storage Facility",
+                "Abandoned Storage Facility",
+                "Ransacked Depot",
+                "Ruined Depot",
+                "Looted Depot",
+                "Abandoned Depot"
+            ]
+        },
+        "officeBuilding": {
+            "descriptions": [
+                "The interior of the ruined office building is a shadowy and foreboding place, with overturned desks and scattered books littering the classrooms. The only sound is the faint rustling of papers in the breeze.",
+                "The empty halls of the ruined office building are a desolate and lonely place, with the only signs of life being the occasional rustling of scavenging rodents.",
+                "The interior of the ransacked office building is a chaotic mess of overturned desks and scattered books, with the smell of decay and dust permeating the air.",
+                "The abandoned office building is a stripped-down and pillaged wasteland, with empty lockers and broken chalkboards lining the halls.",
+                "The interior of the looted office building is a shadowy and eerie place, with overturned desks and scattered textbooks creating a treacherous obstacle course.",
+                "The abandoned office building is a scene of devastation, with shattered windows and overturned chairs littering the halls.",
+                "The abandoned office building is a hazardous and treacherous place, with broken glass and overturned furniture posing a constant threat of injury.",
+                "The interior of the ransacked office building is a maze of overturned bookshelves and scattered books, with the only signs of life being the distant groans of the undead.",
+                "The abandoned office building is a desolate and dangerous place, with overturned desks and shattered windows creating an unstable and unpredictable environment."
+            ],
+            "exteriors": [
+                "The office building's windows are shattered and boarded up, with a faded sign advertising discounts on books.",
+                "The faded letters of the office building's sign loom over the empty parking lot, as if mocking the absence of shoppers.",
+                "The office building's exterior is covered in layers of dust and grime, with weeds and vines creeping up the sides of the building.",
+                "The parking lot of the abandoned office building is cracked and overgrown with weeds, with shopping carts scattered about.",
+                "The office building's entrance is barred by a chain-link fence, with a faded 'closed' sign hanging from the rusted gate.",
+                "The office building's neon sign flickers intermittently, casting an eerie glow over the surrounding ruins.",
+                "The office building's roof has collapsed, leaving a gaping hole in the center of the building and exposing the interior to the elements.",
+                "The windows of the abandoned office building are dark and foreboding, with a sense of danger emanating from the shadows within.",
+                "The office building's faded awning flaps in the wind, its letters barely visible through years of neglect.",
+                "The office building's parking lot is littered with debris and broken glass, a testament to the chaos and destruction of the apocalypse."
+            ],
+            "names": [
+                "Abandoned Office Building",
+                "Ransacked Office Building",
+                "Ruined Office Building",
+                "Looted Office Building",
+                "Ransacked School",
+                "Ruined School",
+                "Looted School",
+                "Abandoned School",
+                "Ransacked Library",
+                "Ruined Library",
+                "Looted Library",
+                "Abandoned Library"
+            ]
+        },
+        "residental": {
+            "descriptions": [
+                "The interior of the ruined house is a shadowy and foreboding place, with overturned furniture and scattered debris littering the rooms. The only sound is the faint rustling of papers in the breeze.",
+                "The empty halls of the ruined house are a desolate and lonely place, with the only signs of life being the occasional rustling of scavenging rodents.",
+                "The interior of the ransacked house is a chaotic mess of overturned furniture and scattered debris, with the smell of decay and dust permeating the air.",
+                "The abandoned house is a stripped-down and pillaged wasteland, with empty lockers and broken furniture lining the halls.",
+                "The interior of the looted house is a shadowy and eerie place, with overturned furniture and scattered debris creating a treacherous obstacle course.",
+                "The abandoned house is a scene of devastation, with shattered windows and overturned furniture littering the halls.",
+                "The abandoned house is a hazardous and treacherous place, with broken glass and overturned furniture posing a constant threat of injury.",
+                "The interior of the ransacked house is a maze of overturned bookshelves and scattered debris, with the only signs of life being the distant groans of the undead.",
+                "The abandoned house is a desolate and dangerous place, with overturned furniture and shattered windows creating an unstable and unpredictable environment."
+            ],
+            "exteriors": [
+                "The house's windows are shattered and boarded up, with a faded sign advertising discounts on furniture.",
+                "The faded letters of the house's sign loom over the empty parking lot, as if mocking the absence of shoppers.",
+                "The house's exterior is covered in layers of dust and grime, with weeds and vines creeping up the sides of the building.",
+                "The parking lot of the abandoned house is cracked and overgrown with weeds, with shopping carts scattered about.",
+                "The house's entrance is barred by a chain-link fence, with a faded 'closed' sign hanging from the rusted gate.",
+                "The house's neon sign flickers intermittently, casting an eerie glow over the surrounding ruins.",
+                "The house's roof has collapsed, leaving a gaping hole in the center of the building and exposing the interior to the elements.",
+                "The windows of the abandoned house are dark and foreboding, with a sense of danger emanating from the shadows within.",
+                "The house's faded awning flaps in the wind, its letters barely visible through years of neglect.",
+                "The house's parking lot is littered with debris and broken glass, a testament to the chaos and destruction of the apocalypse."
+            ],
+            "names": [
+                "Abandoned House",
+                "Ransacked House",
+                "Ruined House",
+                "Looted House",
+                "Ransacked Apartment",
+                "Ruined Apartment",
+                "Looted Apartment",
+                "Abandoned Apartment",
+                "Ransacked Condo",
+                "Ruined Condo",
+                "Looted Condo",
+                "Abandoned Condo"
+            ]
+        }
+    }
+}
