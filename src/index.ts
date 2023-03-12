@@ -28,4 +28,4 @@ import { generate } from "./lib/build-room";
 
 //   console.log("Bot COnnected.");
 // });
-console.log(generate(2));
+console.log(generate(3));

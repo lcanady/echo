@@ -1,4 +1,10 @@
 {
+  "parents": {
+    "street": "#11",
+    "city": "#12",
+    "exit": "#13"
+
+    },
   "names": {
     "streets": [
       "Ruined City Street",

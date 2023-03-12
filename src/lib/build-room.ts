@@ -36,7 +36,8 @@ type BuildingType =
   | "officeBuilding"
   | "residental";
 
-const digger = (room: Room, count?: number) => {
+const digger = (room: Room, count?: number, id?: string) => {
+ 
   function getWeightedNumber() {
     const rand = Math.random();
     if (rand < 0.2) {
@@ -68,7 +69,7 @@ const digger = (room: Room, count?: number) => {
           Math.floor(Math.random() * config.locations[type].names.length)
         ] +
         " - " +
-        uid(),
+        uid() + " - " + id,
       description:
         config.locations[type].descriptions[
           Math.floor(Math.random() * config.locations[type].descriptions.length)
@@ -89,7 +90,7 @@ const digger = (room: Room, count?: number) => {
       Math.floor(Math.random() * config.names.streets.length)
     ] +
     " - " +
-    uid();
+    uid() + " - " + id;
 
   room.description =
     config.descriptions.streets[
@@ -120,7 +121,7 @@ const digger = (room: Room, count?: number) => {
           Math.floor(Math.random() * config.names.streets.length)
         ] +
         " - " +
-        uid(),
+        uid() + " - " + id,
       description:
         config.descriptions.streets[
           Math.floor(Math.random() * config.descriptions.streets.length)
@@ -134,7 +135,7 @@ const digger = (room: Room, count?: number) => {
       south: room,
     };
 
-    digger(room.north, count ? count - 1 : undefined);
+    digger(room.north, count ? count - 1 : undefined, id);
   }
 
   // Roll for the east exit.
@@ -146,7 +147,7 @@ const digger = (room: Room, count?: number) => {
           Math.floor(Math.random() * config.names.streets.length)
         ] +
         " - " +
-        uid(),
+        uid() + " - " + id,
       description:
         config.descriptions.streets[
           Math.floor(Math.random() * config.descriptions.streets.length)
@@ -160,7 +161,7 @@ const digger = (room: Room, count?: number) => {
       west: room,
     };
 
-    digger(room.east, count ? count - 1 : undefined);
+    digger(room.east, count ? count - 1 : undefined,id);
   }
 
   // Roll for the south exit.
@@ -172,7 +173,7 @@ const digger = (room: Room, count?: number) => {
           Math.floor(Math.random() * config.names.streets.length)
         ] +
         " - " +
-        uid(),
+        uid() + " - " + id,
       description:
         config.descriptions.streets[
           Math.floor(Math.random() * config.descriptions.streets.length)
@@ -186,7 +187,7 @@ const digger = (room: Room, count?: number) => {
       north: room,
     };
 
-    digger(room.south, count ? count - 1 : undefined);
+    digger(room.south, count ? count - 1 : undefined, id);
   }
 
   // Roll for the west exit.
@@ -198,7 +199,7 @@ const digger = (room: Room, count?: number) => {
           Math.floor(Math.random() * config.names.streets.length)
         ] +
         " - " +
-        uid(),
+        uid() + " - " + id,
       description:
         config.descriptions.streets[
           Math.floor(Math.random() * config.descriptions.streets.length)
@@ -212,25 +213,27 @@ const digger = (room: Room, count?: number) => {
       east: room,
     };
 
-    digger(room.west, count ? count - 1 : undefined);
+    digger(room.west, count ? count - 1 : undefined, id);
   }
 
   return room;
 };
 
-const directions = (room: Room, distinct = new Set()) => {
+const directions = (room: Room, distinct = new Set(), id?: string) => {
   let output = "";
 
   // Save the current location before we get started.
   if (distinct.size === 0) {
     output += `@wait 0= &start me=[loc(me)]\n`;
-    output += `@wait 0= @create Zone Parent - ${uid()}\n`;
+    output += `@wait 0= &uid me=${id}\n`;
+    output += `@wait 0= @create Zone Parent - ${id}\n`;
     output += `@wait 0= &zone me = [lastcreate(me, thing)]\n`;
   }
 
   if (!distinct.has(room.name)) {
     output += `@wait 0= @dig/tel ${room.name}\n`;
     output += `@wait 0= &ds here = ${room.ds}\n`;
+    output += `@wait 0= &exterior here = ${room.exterior}\n`
     output += `@wait 0= @chzone here = [v(zone)]\n`;
     output += `@wait 0= &scavds here= ${room.scavDS}\n`;
     output += `@wait 0= @desc here = ${room.description}\n`;
@@ -243,6 +246,7 @@ const directions = (room: Room, distinct = new Set()) => {
     output += `@wait 0= &ds here = ${building.ds}\n`;
     output += `@wait 0= &scavds here= ${building.scavDS}\n`;
     output += `@wait 0= @chzone here = [v(zone)]\n`;
+    output += `@wait 0= &exterior here = ${building.exterior}\n`;
     output += `@wait 0= @desc here = ${building.description}\n`;
     output += `@wait 0= &type here = ${building.type}\n`;
     output += `@wait 0= @open Out\\;o\\;leave\\;exit = [search(name=${
@@ -261,13 +265,11 @@ const directions = (room: Room, distinct = new Set()) => {
     output += `@wait 0= &ds here = ${room.north.ds}\n`;
     output += `@wait 0= &scavds here= ${room.north.scavDS}\n`;
     output += `@wait 0= @desc here = ${room.north.description}\n`;
+    output += `@wait 0= &exterior here = ${room.north.exterior}\n`;
     output += `@wait 0= @chzone here = [v(zone)]\n`;
     output += `@wait 0= @open South\\;s = [search(name=${room.name})],North\\;n\n`;
-    output += `@wait 0= @chzone South = [v(zone)]\n`;
-    output += `@wait 0= south\n`;
-    output += `@wait 0= @desc north = ${room.north.exterior}\n`;
     distinct.add(room.north.name);
-    output += directions(room.north, distinct);
+    output += directions(room.north, distinct, id);
   }
 
   if (room.south && !distinct.has(room.south.name)) {
@@ -275,12 +277,12 @@ const directions = (room: Room, distinct = new Set()) => {
     output += `@wait 0= &ds here = ${room.south.ds}\n`;
     output += `@wait 0= &scavds here= ${room.south.scavDS}\n`;
     output += `@wait 0= @desc here = ${room.south.description}\n`;
+    output += `@wait 0= &exterior here = ${room.south.exterior}\n`;
     output += `@wait 0= @chzone here = [v(zone)]\n`;
-    output += `@wait 0= @open North\\\;n = [search(name=${room.name})],South\\\;s\n`;
-    output += `@wait 0= north\n`;
-    output += `@wait 0= @desc south = ${room.south.exterior}\n`;
+    output += `@wait 0= @open North\\;n = [search(name=${room.name})],South\\\;s\n`;
+    output += `@wait 0= @fo me = {&street [lastcreate(me, exit)] = 1}\n`;
     distinct.add(room.south.name);
-    output += directions(room.south, distinct);
+    output += directions(room.south, distinct, id);
   }
 
   if (room.east && !distinct.has(room.east.name)) {
@@ -288,12 +290,12 @@ const directions = (room: Room, distinct = new Set()) => {
     output += `@wait 0= &ds here = ${room.east.ds}\n`;
     output += `@wait 0= &scavds here= ${room.east.scavDS}\n`;
     output += `@wait 0= @desc here = ${room.east.description}\n`;
+    output += `@wait 0= &exterior here = ${room.east.exterior}\n`;
     output += `@wait 0= @chzone here = [v(zone)]\n`;
-    output += `@wait 0= @open West\\\;w = [search(name=${room.name})],East\\\;e\n`;
-    output += `@wait 0= west\n`;
-    output += `@wait 0= @desc east = ${room.east.exterior}\n`;
+    output += `@wait 0= @open West\\;w = [search(name=${room.name})],East\\;e\n`;
+    output += `@wait 0= @fo me= {&street [lastcreate(me,exit)] = 1}\n`;
     distinct.add(room.east.name);
-    output += directions(room.east, distinct);
+    output += directions(room.east, distinct, id);
   }
 
   if (room.west && !distinct.has(room.west.name)) {
@@ -301,12 +303,11 @@ const directions = (room: Room, distinct = new Set()) => {
     output += `@wait 0= &ds here = ${room.west.ds}\n`;
     output += `@wait 0= &scavds here= ${room.west.scavDS}\n`;
     output += `@wait 0= @desc here = ${room.west.description}\n`;
+    output += `@wait 0= &exterior here = ${room.west.exterior}\n`;
     output += `@wait 0= @chzone here = [v(zone)]\n`;
-    output += `@wait 0= @open East\\\;e = [search(name=${room.name})],West\\\;w\n`;
-    output += `@wait 0= east\n`;
-    output += `@wait 0= @desc west = ${room.west.exterior}\n`;
+    output += `@wait 0= @open East\\;e = [search(name=${room.name})],West\\;w\n`;
     distinct.add(room.west.name);
-    output += directions(room.west, distinct);
+    output += directions(room.west, distinct, id);
   }
 
   return output;
@@ -314,9 +315,13 @@ const directions = (room: Room, distinct = new Set()) => {
 
 export const generate = (count: number) => {
   const id = uid();
-  const start = digger({}, count);
-
-  let output = directions(start);
+  const start = digger({}, count, id);
+const distinct = new Set();
+  let output = directions(start, distinct ,id);
+  output += `@wait 0= @dolist search(name=North)= &street ##=1\n`;
+  output += `@wait 0= @dolist search(name=South)= &street ##=1\n`;
+  output += `@wait 0= @dolist search(name=East)= &street ##=1\n`;
+  output += `@wait 0= @dolist search(name=West)= &street ##=1\n`;
   output += `@wait 0= @open Safehouse\\;sh = [v(start)], block-${id}\\;${id}\n`;
   output += `@wait 0= @tel me=[v(start)]\n`;
 
